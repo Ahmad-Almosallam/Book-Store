@@ -182,3 +182,72 @@ header {
 
 
 /* end of suggested books */
+
+
+/* popular books */
+
+.popular-books {
+    position: relative;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+
+.bg-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.rotate {
+    perspective: 100rem;
+}
+
+.book-card {
+    position: relative;
+    box-shadow: 5px 15px 50px #aaa;
+    max-width: 430px;
+    overflow: hidden;
+    transition: all .8s;
+}
+
+.back {
+    position: absolute;
+    top: -100%;
+    opacity: 0;
+    background: #fefefe;
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    pointer-events: none;
+    transform: rotateY(180deg);
+    transition: top .8s, opacity .4s;
+}
+
+.back-content {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50% -50%);
+}
+
+.rotate:hover .book-card {
+    transform: rotateY(180deg);
+}
+
+.rotate:hover .back {
+    top: 0;
+    user-select: auto;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+/* end of popular books */
