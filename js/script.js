@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+    $('.hamburger-menu').click(function() {
+        $('.navigation').toggleClass('change');
+    });
+
     $(window).scroll(function() {
         let pos = $(this).scrollTop();
         if (pos >= 350) {
