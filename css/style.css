@@ -93,7 +93,7 @@ body {
 
 header {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .8)), url(/img/header-bg.jpeg) fixed center /cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .8)), url(../img/header-bg.jpeg) fixed center /cover;
     /* clip-path: polygon(0% 0%, 100% 0% 100% 70%, 0% 100%); */
     clip-path: polygon(100% 90%, 0% 100%, 0% 0%, 100% 0%);
 }
@@ -209,7 +209,7 @@ header {
 /* famous writers */
 
 .famous-writers {
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(/img/writers-bg.jpeg) fixed center/cover;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(../img/writers-bg.jpeg) fixed center/cover;
 }
 
 
@@ -220,7 +220,7 @@ header {
 
 .suggested-books {
     height: 100vh;
-    background: url(/img/wood-bg.jpeg) center /cover;
+    background: url(../img/wood-bg.jpeg) center /cover;
 }
 
 .books {
